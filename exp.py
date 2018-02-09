@@ -27,9 +27,9 @@ fileY = "y.p"
 
 ''' experiment parameters '''
 K = 10                      # parameter K for K-Fold cross validation
-numTests = 2               # number of tests to be done, the final results are the average obtained in the test
+numTests = 10               # number of tests to be done, the final results are the average obtained in the test
 maxDepth = 6                # maximum depth for every tree, useful to avoid overfitting
-minSamplesLeaf = 61         # minimum samples for every leaf, useful to avoid overfitting
+minSamplesLeaf = 55         # minimum samples for every leaf, useful to avoid overfitting
 nEstimators = 20            # number of estimators (trees) in every random forest
 
 ''' possible creation of intermediate files, only needed if at least one of them does not exist '''
